@@ -296,13 +296,11 @@ Command Explanation:
 Example: `examples/fullstack/api/Dockerfile`
 
 #### How to select a base Docker image
-Questions and examples:
-1. What is the type of container I want?
-   1. Web server? - nginx
-   2. Database? - mysql
-   3. CLI program? - python or base OS images like ubuntu
-   4. API? - java
-   5. Existing product? - Kibana
+![](assets/how-to-base-image.png)
+
+- There is almost always a base image available in DockerHub for almost all uses cases.
+- Follow the tree and ask yourself the questions to find the best base image for your need.
+- Keep the Base OS image option (highlighted in blue) as a last resort since you'll need to install your dependencies yourself.
 
 #### Rule of thumb when writing a Dockerfile
 - Docker image layers are stacked on top of each other
