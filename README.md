@@ -255,7 +255,7 @@ Command Explanation:
 2. I wanted to download `ubuntu:18.04` image but I forgot to specify the version/tag `18.04`. What happens?
 3. Is it ok use an image with `:latest` tag in production?
 4. Is it possible to download two versions of an image? Example: `ubuntu:18.04` and `ubuntu:20.04`?
-5. I create a container of `nginx` image by using command #1 below. It starts the container and prints the ID. I use the ID to remote the running container using command #2 below. What happens and how can we fix it?
+5. I create a container of `nginx` image by using command #1 below. It starts the container and prints the ID. I use the ID to remove the running container using command #2 below. What happens and how can we fix it?
    1. `docker run -d -p 8080:80 nginx`
    2. `docker rm <container-id>`
 6. I try to create two containers of `nginx` image one after another using the commands below. What happens and how can we fix it?
